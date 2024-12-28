@@ -1,0 +1,205 @@
+.medkit{
+    position: relative;
+    background-color: #C9CBEC ;
+    width: 1920px;
+    height: 1526px;
+}
+
+.realmedkit{
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+}
+
+.wow{
+    position: relative;
+    top: 812px;
+    left: 302px;
+        width: 242px; 
+        height: 242px;
+        background: #ffffff;
+        border-radius: 50%;
+}
+
+.wow:hover{
+    position: relative;
+    top: 812px;
+    left: 302px;
+        width: 242px; 
+        height: 242px;
+        background: #ffffff;
+        border-radius: 50%;
+        transform: scale(.85);
+        animation: pulse 2s ease-in-out infinite;
+      }
+      
+      @keyframes pulse {
+        from {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(0.20);
+          background:  #C9CBEC;
+        }
+        to {
+          transform: scale(1);
+        }
+}
+
+.wow2{
+    position: relative;
+    top: 360px;
+    left: 760px;
+        width: 42px; 
+        height: 42px;
+        background: #C9CBEC;
+        border-radius: 50%;
+}
+
+.wow2:hover{
+    position: relative;
+    top: 360px;
+    left: 760px;
+        width: 42px; 
+        height: 42px;
+        background: #C9CBEC;
+        border-radius: 50%;
+        transform: scale(.85);
+        animation: pulse2 2s ease-in-out infinite;
+      }
+      
+      @keyframes pulse2 {
+        from {
+          transform: scale(1);
+        }
+        50% {
+          transform: scale(8);
+          background:  #ffffff;
+        }
+        to {
+          transform: scale(1);
+        }
+}
+
+
+.rats{
+    position: relative;
+    top: 510px;
+    left: 640px; 
+    height: 282px;
+    width: 282px;
+}
+
+.rats:hover{
+    position: relative;
+    top: 510px;
+    left: 640px; 
+    height: 282px;
+    width: 282px;
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.moon{
+    position: relative;
+    top: -68px;
+    left: 299px;  
+    height: 251px;
+    width: 251px;
+}
+
+.moon:hover{
+    position: relative;
+    top: -68px;
+    left: 299px; 
+    height: 251px;
+    width: 251px;
+    animation-name: n;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes n {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.spiral{
+    position: relative;
+    top: -316px;
+    left: 1040px;  
+    width: 548px;
+height: 548px;
+}
+
+.spiral:hover{
+    position: relative;
+    top: -316px;
+    left: 1040px; 
+    width: 548px;
+height: 548px;
+    animation-name: n;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes n {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+.hellno{
+    position: relative;
+    top: -265px;
+    left: 270px; 
+width: 280px; 
+height: 280px;
+background: #C9CBEC;
+border-radius: 100%;}
+
+.hellno:hover{
+    position: relative;
+    top: -265px;
+    left: 270px; 
+width: 280px; 
+height: 280px;
+background: #C9CBEC;
+border-radius: 100%;
+animation-name: bad;
+animation-duration: 2s;
+animation-iteration-count: infinite;
+}
+
+@keyframes bad {
+    0% {
+        width: 280px; 
+        border-radius: 100%;
+        background: #C9CBEC;
+    }
+50% {
+        width: 1380px; 
+        border-radius: 0%;
+        background: #898ffc;
+    }
+    100% {
+        width: 280px; 
+        border-radius: 100%;
+        background: #C9CBEC;
+}
+}

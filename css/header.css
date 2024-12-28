@@ -1,0 +1,216 @@
+
+
+
+.body{
+    width: 1920px;
+    font-family: 'FuturaPTBold';
+}
+
+.header{
+    width: 1920px;
+    height: 892px;
+    background: #8F95F7;
+}
+
+.ladder{
+    position: absolute;
+    left: 1199px;
+}
+
+.cloud{
+    position: absolute;
+    animation-name: marquee-content;
+    animation-iteration-count: infinite;
+}
+
+@keyframes marquee-content {
+    from { transform: translateX(0%); }
+    to { transform: translateX(100%); }
+  }
+
+.star{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 4s;
+    animation-name: slideon;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon {
+    from {
+      margin-top: 100px;
+      margin-left: 70px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 590px;
+      margin-left: 70px;
+      opacity: 0%;
+      transform: rotate(320deg)
+    }
+  }
+
+.star3{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 4s;
+    animation-name: slideon2;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon2 {
+    from {
+      margin-top: 100px;
+      margin-left: 370px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 700px;
+      margin-left: 370px;
+      opacity: 0%;
+      transform: rotate(90deg)
+    }
+  }
+
+.star4{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 2.7s;
+    animation-name: slideon3;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon3 {
+    from {
+      margin-top: 270px;
+      margin-left: 401px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 500px;
+      margin-left: 401px;
+      opacity: 0%;
+      transform: rotate(200deg)
+    }
+  }
+
+.star4{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 5s;
+    animation-name: slideon4;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon4 {
+    from {
+      margin-top: -100px;
+      margin-left: 560px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 460px;
+      margin-left: 560px;
+      opacity: 0%;
+      transform: rotate(50deg)
+    }
+  }
+
+.star5{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 8s;
+    animation-name: slideon5;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon5 {
+    from {
+      margin-top: 100px;
+      margin-left: 950px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 700px;
+      margin-left: 950px;
+      opacity: 0%;
+      transform: rotate(360deg)
+    }
+  }
+
+.star6{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 4.2s;
+    animation-name: slideon6;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon6 {
+    from {
+      margin-top: -100px;
+      margin-left: 1150px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 460px;
+      margin-left: 1150px;
+      opacity: 0%;
+      transform: rotate(360deg)
+    }
+  }
+
+.star7{
+    position: absolute;
+    background-image: url("/pics/star.png");
+    top: 00px;
+    animation-duration: 3.6s;
+    animation-name: slideon7;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideon7 {
+    from {
+      margin-top: 100px;
+      margin-left: 1590px;
+      opacity: 100%;
+      transform: rotate(0deg)
+    }
+  
+    to {
+      margin-top: 600px;
+      margin-left: 1590px;
+      opacity: 0%;
+      transform: rotate(360deg)
+    }
+  }
+
+  .title{
+    position: absolute;
+    background-image: url("//wakeup-main/pics/title.png");
+    margin-top: 400px;
+    margin-left: 200px;
+  
+}
+
+
+
+

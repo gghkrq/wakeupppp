@@ -1,0 +1,11 @@
+.text{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 1920px;
+    height: 380px;
+}
+
+.marquee-onstart{
+    margin-left: 0px;
+    margin-right: 0px;
+}

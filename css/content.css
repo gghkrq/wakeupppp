@@ -1,0 +1,13 @@
+@font-face{
+	font-family:'FuturaPTBold'; 
+    src: url(/fonts/FuturaPTBold.ttf) format('truetype');
+    font-style: normal;
+	font-weight: normal;
+}
+
+.title{
+    font-family:'FuturaPTBold'; 
+    margin-top: 500;
+	font-size: 60px;
+    color: rgb(0, 255, 255);
+}
